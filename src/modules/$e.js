@@ -38,7 +38,7 @@ const $e = function (parameter, context) {
  * @return {NodeList}
  */
 $e.prototype.byCss = function (parameter, context) {
-  return (context || document).querySelectorAll(parameter);
+  return document.querySelectorAll(parameter);
 };
 
 
